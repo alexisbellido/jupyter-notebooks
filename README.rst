@@ -11,7 +11,7 @@ Using packages from the scientific Python ecosystem.
 
 .. code-block:: bash
 
-  $ docker run --rm -v $PWD:/home/jovyan/work -p 8888:8888 --name jp-scipy jupyter/scipy-notebook:54462805efcb
+  $ docker run --rm -v $PWD:/home/jovyan/work -p 8888:8888 --name jp-scipy jupyter/scipy-notebook:feacdbfc2e89
 
 Use `start-notebook.sh <https://jupyter-docker-stacks.readthedocs.io/en/latest/using/common.html#notebook-options>`_ with a `hashed password <https://jupyter-notebook.readthedocs.io/en/stable/public_server.html#preparing-a-hashed-password>`_.
 
